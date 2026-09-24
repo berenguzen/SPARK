@@ -1,0 +1,20 @@
+let x = 10
+let y = 20
+
+if x + y > 25 {
+    print("toplam büyük")
+} else {
+    print("toplam küçük")
+}
+
+func carp(a, b) {
+    return a * b
+}
+
+print(carp(4, 5))
+
+let i = 0
+while i < 5 {
+    print(i)
+    i = i + 1
+}
